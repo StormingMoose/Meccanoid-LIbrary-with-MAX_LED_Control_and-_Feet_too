@@ -5,7 +5,7 @@
       The information contained in this document is Proprietary to Spin Master Ltd.   
       This information should not be used in the creation and sale of any commercial product.”
 
-most of my additions and were derived from the Meccachannel github archive for a liveria dev module  .. Storming Moose
+most of my additions were derived from the Meccachannel github archive for a liveria dev module  .. Storming Moose
 
 */
 
