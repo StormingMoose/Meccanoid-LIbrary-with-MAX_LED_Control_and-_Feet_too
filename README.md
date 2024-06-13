@@ -4,4 +4,6 @@ This developed kinda rapidly.
 
 Added the led to the library.
 
-Only works with arduino uno and probably nano, would not compile without memory erros on the esp32.
+Only works with arduino uno and probably nano, would not compile without memory erros on the esp3
+
+https://www.youtube.com/shorts/nWxSHKJpxJI
