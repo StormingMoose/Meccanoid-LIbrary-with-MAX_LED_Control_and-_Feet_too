@@ -1,9 +1,9 @@
 
 #include "MeccaBrain.h"
 
-const int chainpin1 = 5;         //   my ESP32 pin
+const int chainpin1 = 5;         //   my ESP32 pin just for the MAX led face
 
-MeccaBrain chain1(chainpin1);       // set up a chain of stuff, motors, servos ...
+MeccaBrain chain1(chainpin1);       // M.A.X. LED may not work in a chain and may need its own pin
 
 /*
 int pinFACE = 19;  
