@@ -190,7 +190,7 @@ void MeccaBrain :: wheel(int wheelNum, byte direction){
 
 
 
-int MeccaBrain::setImage(byte image[], int count) {
+void MeccaBrain::setImage(byte image[], int count) {  // changed from int to Void on the advice of Mr.Sangwimi, thank you
 	setSingleByeCommand(0, 0);
   setSingleByeCommand(1, 0xff);
   setSingleByeCommand(2, 0);
