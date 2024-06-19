@@ -34,7 +34,7 @@ class MeccaBrain{
 		byte getServoPosition(int servoNum);
 
     void wheel(int wheelNum, byte direction);            //Storming Moose 2024
-    int  setImage(byte image[], int count);
+    void setImage(byte image[], int count);          // changed from int to void, thank you Mr. Sangwimi 
     void setSingleByeCommand(int modNum, byte command);
     void sendImageToFace(byte image[], int count);
     void sendByteToFace(byte data);
