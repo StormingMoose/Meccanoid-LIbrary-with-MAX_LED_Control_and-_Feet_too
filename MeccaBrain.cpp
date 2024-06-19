@@ -197,10 +197,7 @@ void MeccaBrain::setImage(byte image[], int count) {  // changed from int to Voi
   setSingleByeCommand(3, 0xff);
   communicate();
 	sendImageToFace(image, count);
-   //         Serial.println( byte image[]); 
-                        Serial.println(count); 
-                                    Serial.println("Kilroy");
-            Serial.println("Kilroy  kilroy    kilroy");
+                             
 }
 
 void MeccaBrain::setSingleByeCommand(int modNum, byte command) {
